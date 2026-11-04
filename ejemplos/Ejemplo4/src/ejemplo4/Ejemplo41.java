@@ -25,7 +25,7 @@ public class Ejemplo41 {
         System.out.println("Ingrese la ciudad");
         ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
-        if (ciudad.equals("Loja") && ciudad.equals("Machala") || 
+        if (ciudad.equals("Loja") && ciudad.equals("Machala") || // No es logico porque no puedes estar en dos ciudades al mismo tiempo
                 ciudad.equals("Guayaquil")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
